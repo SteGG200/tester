@@ -3,7 +3,7 @@
 using namespace std;
 using sz_t = unsigned long long;
 
-const int test = 100;
+const int test = 1e9;
 
 mt19937_64 rd(chrono::steady_clock::now().time_since_epoch().count());
 
