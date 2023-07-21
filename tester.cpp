@@ -169,7 +169,7 @@ void run(){
 }
 
 int main(){
-	// run();
+	run();
 	// makeTest();
 
 	// string command;
