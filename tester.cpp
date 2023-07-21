@@ -20,7 +20,7 @@ T choice(vector<T> G){
 }
 
 char choice(string G){
-	sz_t index = randint(0ULL, G.size() - 1);
+	sz_t index = randint((std::size_t) 0, G.size() - 1);
 	return G[index];
 }
 
